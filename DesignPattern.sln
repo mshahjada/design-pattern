@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesing", "CommandDesing\CommandDesing.csproj", "{21F89E7B-475F-4F19-BA7E-011B19089C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{CC285F57-0612-4AC9-9DEF-C8F433726C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{CC285F57-0612-4AC9-9DEF-C8F433726C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{0A268C49-9D42-48C3-B6DD-5087F7A2F12B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{0A268C49-9D42-48C3-B6DD-5087F7A2F12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{71D76037-5334-4ED1-B8C8-8CA087CFA284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{0A268C49-9D42-48C3-B6DD-5087F7A2F12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A268C49-9D42-48C3-B6DD-5087F7A2F12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A268C49-9D42-48C3-B6DD-5087F7A2F12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D76037-5334-4ED1-B8C8-8CA087CFA284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D76037-5334-4ED1-B8C8-8CA087CFA284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D76037-5334-4ED1-B8C8-8CA087CFA284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D76037-5334-4ED1-B8C8-8CA087CFA284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +138,7 @@ Global
 		{21F89E7B-475F-4F19-BA7E-011B19089C79} = {814E115A-2C46-465B-80FE-CED17FBF42CC}
 		{CC285F57-0612-4AC9-9DEF-C8F433726C34} = {814E115A-2C46-465B-80FE-CED17FBF42CC}
 		{0A268C49-9D42-48C3-B6DD-5087F7A2F12B} = {814E115A-2C46-465B-80FE-CED17FBF42CC}
+		{71D76037-5334-4ED1-B8C8-8CA087CFA284} = {814E115A-2C46-465B-80FE-CED17FBF42CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D13F7009-20ED-495F-8FE9-F72C5FA3ACE6}
